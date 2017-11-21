@@ -37,3 +37,12 @@ project
 │   requirements.txt
 |   wsgi.py
 ```
+
+----------
+
+Notes
+--------------------
+
+I've added Jinja2 templating, but if you plan on only having web API framework, you can remove the `web/templates` directory and `web/settings.py` file.
+
+Before you go crazy on me because I'm missing the models part of MVC, I left this out purposely. This is so you can pick your own database/ORM technology if you decide to use one.
