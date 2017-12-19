@@ -38,6 +38,9 @@ project
 │       │   base.html
 │       │   index.html
 │
+└───bin
+│   │  gunicorn_start.sh
+│
 |   .gitignore
 │   README.md    
 │   requirements.txt
