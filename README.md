@@ -17,6 +17,12 @@ Useful gunicorn flags for development:
 
 `gunicorn -b 0.0.0.0:8000 --reload --access-logfile - wsgi:app`
 
+
+Or modify the gunicorn_start script to run in whatever flavor you prefer. This is tailored for deployment though.
+
+`bin/gunicorn_start.sh`
+
+
 ----------
 
 Directory Structure
