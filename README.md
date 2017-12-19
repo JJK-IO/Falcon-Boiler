@@ -30,7 +30,7 @@ Directory Structure
 
 ***The layout is subject to change, I'm still trying to decide whether this is the best layout.*** 
 
-However if you plan on adopting this boilerplate, I'll try to make sure that the current run script will always work.
+However if you plan on adopting this boilerplate, I'll try to make sure that the current run command will always work.
 
 ```
 project
