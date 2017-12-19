@@ -28,7 +28,7 @@ However if you plan on adopting this boilerplate, I'll try to make sure that the
 
 ```
 project
-└───web
+└───app
 │   │   __init__.py
 │   │   settings.py
 │   │   urls.py
@@ -49,6 +49,6 @@ project
 Notes
 --------------------
 
-I've added Jinja2 templating, but if you plan on only having web API framework, you can remove the `web/templates` directory and `web/settings.py` file.
+I've added Jinja2 templating, but if you plan on only having web API framework, you can remove the `app/templates` directory and `web/settings.py` file.
 
 Before you go crazy on me because I'm missing the models part of MVC, I left this out purposely. This is so you can pick your own database/ORM technology if you decide to use one.
