@@ -9,7 +9,13 @@ If you like [Falcon](https://falconframework.org/), but you miss the organizatio
 Running Server
 -------------
 
+Generic run command:
+
 `gunicorn -b 0.0.0.0:8000 wsgi:app`
+
+Useful gunicorn flags for development:
+
+`gunicorn -b 0.0.0.0:8000 --reload --access-logfile - wsgi:app`
 
 ----------
 
