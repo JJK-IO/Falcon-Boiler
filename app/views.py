@@ -1,6 +1,6 @@
 import falcon
 
-from web.settings import env
+from app.settings import env
 
 
 class IndexView:

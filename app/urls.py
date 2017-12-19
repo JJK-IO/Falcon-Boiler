@@ -1,4 +1,4 @@
-from web.views import IndexView
+from app.views import IndexView
 
 urlpatterns = [
     ('/', IndexView())

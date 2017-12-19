@@ -1,6 +1,6 @@
 import falcon
 
-from web.urls import urlpatterns
+from app.urls import urlpatterns
 
 # falcon.API instances are callable WSGI apps
 app = falcon.API()
